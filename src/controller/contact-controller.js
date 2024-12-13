@@ -1,6 +1,4 @@
-import e from "express";
 import contactService from "../service/contact-service.js";
-import { logger } from "../app/logging.js";
 
 const create = async (req, res, next) => {
   try {
